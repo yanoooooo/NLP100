@@ -23,8 +23,8 @@ f_col2 = open(col2)
 f_result = open(result, "w")
 
 for i,j in zip(f_col1, f_col2):
-    i = i.strip()
-    f_result.write(i+"\t"+j)
+  i = i.strip()
+  f_result.write(i+"\t"+j)
 
 f_col1.close()
 f_col2.close()
